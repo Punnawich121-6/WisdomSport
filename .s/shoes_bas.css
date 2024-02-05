@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    height: fit-content;
+    overflow-x: hidden;
+}
+
+
+
+.up {
+    margin-left: 5%;
+    margin-top: 4%;
+    /*border: 5px solid red;*/
+    font-size: 80px;
+    padding: 0;
+    font-family: Impact;
+    color: #FDFEFE
+        /* ปรับค่าตามที่ต้องการ */
+}
+
+.down {
+    margin-left: 5%;
+    margin-top: -40px;
+    /*border: 5px solid red;*/
+    font-size: 80px;
+    font-family: Impact;
+    color: #FDFEFE
+        /* ปรับค่าตามที่ต้องการ */
+}
+
+
+.sport {
+    color: #FDFEFE;
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 10px;
+}
+
+.content {
+    /*border: 5px solid red;*/
+    background-color: #292929;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 6%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.content .shoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box_shoes {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* ขนาด 50% ของ .shoes */
+}
+
+.info {
+    /*border: 5px solid red;*/
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    line-height: 2;
+    font-family: "Arial";
+    letter-spacing: 1px;
+    text-align: left;
+    max-width: 100%;
+    width: 580px;
+}
+
+.info p {
+    font-size: 17px;
+}
+
+.shoes_name p {
+    font-size: 30px;
+    color: white;
+}
+
+
+.review {
+    /*border: 5px solid red;*/
+    margin-top: 5%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: azure;
+
+    max-width: 100%;
+    height: auto;
+    width: 580px;
+}
+
+iframe {
+    max-width: 100%;
+    max-height: 100%;
+    width: 580px;
+    height: 315px;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.shoes_pic {
+    /*border: 5px solid red;*/
+    margin-left: 13%;
+    margin-right: 10%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    /*border: 5px solid red;*/
+    /* กำหนดความกว้างเริ่มต้นของภาพเป็น 400px */
+}
+
+
+.shoes_name {
+    margin-top: -25%;
+    /*border: 5px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
