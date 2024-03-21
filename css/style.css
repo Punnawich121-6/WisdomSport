@@ -266,3 +266,11 @@ h6,
         background: var(--primary);
     }
 }
+/*//////////Login /////////*/
+.Login {
+    display: flex;
+    justify-content: center; /* จัดเนื้อหาตรงกลางในแนวนอน */
+    align-items: center; /* จัดเนื้อหาตรงกลางในแนวตั้ง */
+    height: 100vh; /* ให้คลาส Login มีความสูงเท่ากับ viewport ทั้งหมด */
+    text-align: center; /* จัดข้อความภายใน .Login อยู่ตรงกลาง */
+}

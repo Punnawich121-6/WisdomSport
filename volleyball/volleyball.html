@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Volleyball</title>
+    <title>Basketball</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://kit.fontawesome.com/c26a6b6824.js" crossorigin="anonymous"></script>
     <link href="/img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
@@ -30,6 +32,7 @@
     <!-- Template Stylesheet -->
     <link href="/css/style.css" rel="stylesheet">
 </head>
+
 
 <body>
     <!-- Header Start -->
@@ -143,6 +146,72 @@
     </nav>
 </div>
     <!-- Header End -->
+     <!-- Contact Start -->
+     <div class="container-fluid p-5">
+        <div class="mb-5 text-center">
+            <h1 class="display-3 text-uppercase mb-0">Content</h1>
+        </div>
+        <div class="row g-5 mb-5">
+            <div class="col-lg-4">
+                <div class="d-flex flex-column align-items-center bg-dark rounded text-center py-5 px-3">
+                    <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                        <a href="news_volleyball.html"> <i class="fa-solid fa-newspaper fs-4 text-white"></i></a>
+                       
+                    </div>
+                    <h5 class="text-uppercase text-primary">News Volleyball</h5>
+                    <p class="text-secondary mb-0">All LEAGUES</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex flex-column align-items-center bg-dark rounded text-center py-5 px-3">
+                    <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                        <a href="rules_volleyball.html"><i class="fa-solid fa-scale-balanced fs-4 text-white"></i></a>
+                    </div>
+                    <h5 class="text-uppercase text-primary">Rule Volleyball</h5>
+                    <p class="text-secondary mb-0">All LEAGUES</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex flex-column align-items-center bg-dark rounded text-center py-5 px-3">
+                    <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                        <a href="shoes_volleyball.html"><i class="fa-solid fa-shoe-prints fs-4 text-white"></i></a>
+                    </div>
+                    <h5 class="text-uppercase text-primary"></a>Shoes</h5>
+                    <p class="text-secondary mb-0">INDOOR/OUTDOOR</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex flex-column align-items-center bg-dark rounded text-center py-5 px-3">
+                    <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                        <a href="ball_volleyball.html"><i class="fa-solid fa-basketball fs-4 text-white"></i></a>
+                    </div>
+                    <h5 class="text-uppercase text-primary">Ball</h5>
+                    <p class="text-secondary mb-0">All LEAGUES</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex flex-column align-items-center bg-dark rounded text-center py-5 px-3">
+                    <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                        <a href="skill_volleyball.html"><i class="fa-solid fa-bolt fs-4 text-white"></i></a>
+                        
+                    </div>
+                    <h5 class="text-uppercase text-primary">Skill</h5>
+                    <p class="text-secondary mb-0">SERVE/SET/SPIKE/</p>
+                </div>
+            </div>
+            <div class="col-lg-4" >
+                <div class="d-flex flex-column align-items-center bg-dark rounded text-center py-5 px-3">
+                    <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                        <a href="court_volleyball.html"><i class="fa-solid fa-basketball fs-4 text-white"></i></a>
+                    </div>
+                    <h5 class="text-uppercase text-primary">Court</h5>
+                    <p class="text-secondary mb-0">International Court</p>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+    <!-- Contact End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-secondary px-5 mt-5">
@@ -196,10 +265,10 @@
                 <div
                     class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-5">
                     <h4 class="text-uppercase text-white mb-4">Sign up</h4>
-                    <form action="">
+                    <form id="registerForm">
                         <div class="input-group">
-                            <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                            <button class="btn btn-dark">Sign Up</button>
+                            <input class="form-control border-white p-3" placeholder="Your Email" id="email">
+                            <button type="submit" class="btn btn-dark">Sign Up</button>
                         </div>
                     </form>
                 </div>
@@ -236,6 +305,7 @@
 
     <!-- Template Javascript -->
     <script src="/js/main.js"></script>
+    <script src="/js/sing_up.js"></script>
     <script type="module" src="/js/info_rules_bas.js"></script>
 </body>
 

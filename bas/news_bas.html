@@ -141,14 +141,37 @@
         </div>
     </nav>
 </div>
-    <!-- Header End -->
+    <!-- Header End -->  
     <div class="container-fluid p-5">
         <div class="mb-5 text-center">
             <h5 class="text-primary text-uppercase">Basketball</h5>
-            <h1 class="display-3 text-uppercase mb-0">News Of Basketball</h1>
+            <h1 class="display-3 text-uppercase mb-0">News Basketball</h1>
         </div>
-    </div>   
+        <div class="tab-class text-center">
+            <ul class="nav nav-pills d-inline-flex justify-content-center bg-dark text-uppercase rounded-pill mb-5">
 
+                <li class="nav-item">
+                    <a class="nav-link rounded-pill text-white active" data-bs-toggle="pill" href="#tab-1" id="nbaButton">NBA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-pill text-white" data-bs-toggle="pill" href="#tab-2" id="fibaButton">WNBA</a>
+                </li>
+            </ul>
+            
+            <!-- content rule--> 
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show active">
+                    <rssapp-magazine id="Ab2IgKmyvOaptKNr"></rssapp-magazine><script src="https://widget.rss.app/v1/magazine.js" type="text/javascript" async></script>
+                </div>
+                <div id="tab-2" class="tab-pane fade p-0">
+                    <rssapp-magazine id="4dNiMauB6LqNnGx3"></rssapp-magazine><script src="https://widget.rss.app/v1/magazine.js" type="text/javascript" async></script>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-secondary px-5 mt-5">
         <div class="row gx-5">
@@ -201,10 +224,10 @@
                 <div
                     class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-5">
                     <h4 class="text-uppercase text-white mb-4">Sign up</h4>
-                    <form action="">
+                    <form id="registerForm">
                         <div class="input-group">
-                            <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                            <button class="btn btn-dark">Sign Up</button>
+                            <input class="form-control border-white p-3" placeholder="Your Email" id="email">
+                            <button type="submit" class="btn btn-dark">Sign Up</button>
                         </div>
                     </form>
                 </div>
@@ -241,6 +264,7 @@
 
     <!-- Template Javascript -->
     <script src="/js/main.js"></script>
+    <script src="/js/sing_up.js"></script>
 </body>
 
 </html>
